@@ -1,6 +1,6 @@
 # Firefox Custom CSS - GNOME Style
 
-Custom Firefox CSS theme featuring GNOME-style rounded corners and a clean, compact layout. Based on the approach from [varun.ch](https://varun.ch/posts/firefox/) with additional enhancements for better desktop integration.
+Custom Firefox CSS theme featuring GNOME-style rounded corners and a clean, compact layout with enhanced desktop integration.
 
 ![Firefox with custom CSS styling](Firefox-CSS-Screenshot.png)
 
@@ -177,6 +177,5 @@ MIT License - Feel free to use and modify as needed.
 
 ## Acknowledgments
 
-- Original layout concept from [varun.ch](https://varun.ch/posts/firefox/)
 - GNOME design inspiration
 - Firefox CSS customization community

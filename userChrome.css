@@ -1,4 +1,4 @@
-/* Based on varun.ch/posts/firefox/ */
+/* Firefox Custom CSS with GNOME-style rounded corners */
 
 /* Hide the default tab bar */
 #main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar > .toolbar-items {
