@@ -120,8 +120,41 @@ Customize the URL bar appearance:
 3. Check file permissions (files should be readable)
 4. Restart Firefox completely
 
+### Finding CSS Selectors for Customization
+
+To customize elements not covered in this theme or troubleshoot styling issues:
+
+1. **Enable Browser Toolbox:**
+   - Type `about:config` in Firefox
+   - Search for `devtools.chrome.enabled` and set to `true`
+   - Search for `devtools.debugger.remote-enabled` and set to `true`
+
+2. **Open Browser Toolbox:**
+   - Press `Ctrl+Alt+Shift+I` (Linux/Windows) or `Cmd+Opt+Shift+I` (macOS)
+   - Or go to `Tools > Browser Tools > Browser Toolbox`
+   - Click "OK" in the incoming connection dialog
+
+3. **Inspect UI Elements:**
+   - Click the inspector tool (top-left icon)
+   - Click on any Firefox UI element (toolbar buttons, URL bar, etc.)
+   - The inspector will highlight the element and show its CSS selectors
+
+4. **Copy Selectors:**
+   - Right-click on the highlighted element in the inspector
+   - Choose "Copy > CSS Selector" or "Copy > XPath"
+   - Use the selector in your custom CSS rules
+
+**Example:** To style a specific extension button:
+```css
+/* Found using inspector: */
+#ublock0_raymondhill_net-browser-action {
+    border-radius: 6px !important;
+    background-color: #your-color !important;
+}
+```
+
 ### Extension Buttons Not Rounded
-Some extensions may not be covered by the default selectors. Add custom rules for specific extensions:
+Some extensions may not be covered by the default selectors. Use the Browser Toolbox method above to find the correct selector, then add custom rules:
 
 ```css
 #your-extension-id-browser-action {
