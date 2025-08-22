@@ -79,6 +79,8 @@ programs.firefox = {
 };
 ```
 
+For a complete NixOS Firefox module implementation, see: [nixcfg Firefox module](https://github.com/bashfulrobot/nixcfg/tree/main/modules/apps/firefox)
+
 ## Customization
 
 ### Adjusting Corner Radius
