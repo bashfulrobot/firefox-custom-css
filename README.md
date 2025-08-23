@@ -25,6 +25,14 @@ Custom Firefox CSS theme featuring GNOME-style rounded corners and a clean, comp
 - Custom color scheme for new tab page
 - Improved contrast and readability
 
+## Tab Navigation
+
+Since this theme hides the default tab bar, you'll need alternative methods to navigate between tabs:
+
+**Recommended:** Install the [Smart Tab Switcher](https://addons.mozilla.org/en-CA/firefox/addon/smart-tab-switcher/) extension and assign it a keyboard shortcut for quick tab navigation.
+
+**Built-in Alternative:** Use `Ctrl+Tab` to cycle through recently used tabs as a backup method.
+
 ## Installation
 
 ### Prerequisites
